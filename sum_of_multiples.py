@@ -15,4 +15,5 @@ def total_sum_of_multiples(x,y,c):
             sum_of_multiples(y,999) -
             sum_of_multiples(x*y,999))
 
+# Print the answer. 233168
 print total_sum_of_multiples(3,5,999)
