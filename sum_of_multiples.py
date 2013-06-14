@@ -1,4 +1,4 @@
-# Find all the sum of all multiples of 3 and 5 under 1,000
+# Find the sum of all multiples of 3 and 5 under 1,000
 
 # Fast math version:
 
