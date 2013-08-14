@@ -1,8 +1,19 @@
-# Find the sum of all multiples of 3 and 5 under 1,000
+# -*- coding: utf-8 -*-
 
-# Fast math version:
+"""
+@author: Martin Runelöv
 
-# Returns the sum of all multiples of the integer i up to the ceiling c
+Thursday Code Puzzler: Sum of Multiples
+http://java.dzone.com/articles/thursday-code-puzzler-sum
+
+Find the sum of all multiples of 3 and 5 under 1,000
+
+Fast math version:
+
+Returns the sum of all multiples of the integer i up to the ceiling c
+
+"""
+
 def sum_of_multiples(i, c):
     # The sum of the first n integers is n(n+1)/2
     return i*((c/i)*(c/i+1))/2
@@ -16,4 +27,4 @@ def total_sum_of_multiples(x,y,c):
             sum_of_multiples(x*y,999))
 
 # Print the answer. 233168
-print total_sum_of_multiples(3,5,999)
+print ('Sum of multiples: ' + str(total_sum_of_multiples(3,5,999)))
