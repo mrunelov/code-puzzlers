@@ -19,10 +19,11 @@ an array with [1,5,6,7,9,10] can be balanced by splitting the array at position 
 array = [1,5,6,7,9,10]
 
 def balanced_index(array):
-"""
-Uses a generator since only one possible answer is possible. Defaults to -1.
+    """
+	Uses a generator since only one possible answer is possible. Defaults to -1.
 
-"""	
-	return next((i for i,_ in enumerate(array) if sum(array[:i]) == sum(array[i:])),-1)
+    """
+    return next((i for i,_ in enumerate(array) if sum(array[:i]) == sum(array[i:])),-1)
 
+# Print the result
 print('Balanced at index ' + str(balanced_index(array)))
