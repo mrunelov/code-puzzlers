@@ -1,6 +1,6 @@
 /*
  * Life Forms
- * https://kth.kattis.scrool.se/problems/phonelist
+ * https://kth.kattis.scrool.se/problems/lifeforms
  *
  * @author Martin Runelöv
  */
